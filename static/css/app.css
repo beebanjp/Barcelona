@@ -1,3 +1,27 @@
 /**
 * Your CSS here
 **/
+
+iframe {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'BenchNine', sans-serif;
+    
+}
+
+h1, h2 { 
+    font-family: 'Merienda', cursive;
+    color:#4bbd31;
+}
+
+.dark{
+    background-color: darkgreen;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: darkgreen;
+}
