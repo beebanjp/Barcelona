@@ -11,17 +11,40 @@ body {
     
 }
 
-h1, h2 { 
-    font-family: 'Merienda', cursive;
+h1 {font-family: 'Merienda', cursive;
+    color:yellow;
+    font-size: 60px
+} 
+
+
+h2 { 
+    font-family: 'Merriweather', cursive;
     color:#4bbd31;
+    padding-left: 10px
 }
 
 .dark{
     background-color: darkgreen;
     color: white;
+    
 }
 
 .light{
     background-color: white;
     color: darkgreen;
 }
+ol{ padding-inline-start: 0px;}
+
+.title{ 
+    background-image: url(../images/amazon-river.jpg);
+    background-size: cover;
+
+}
+
+.quote {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+}
+section{ padding-left: 1%;
+padding-right: 1%;}
