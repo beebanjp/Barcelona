@@ -41,10 +41,44 @@ ol{ padding-inline-start: 0px;}
 
 }
 
-.quote {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px
+.gallery{ 
+    display: flex;
 }
+
+.gallery img{ 
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery-window{
+    overflow: scroll;
+    width: 100%
+}
+
+.instagram{
+    overflow: scroll;
+    width:100%;
+}
+
 section{ padding-left: 1%;
 padding-right: 1%;}
+
+ol.Exciting-activities-list{
+    margin-left: 20px
+}
+/* 
+img.toucan{max-width: 40%; }
+img.jaguar{max-width: 50%;} */
+
+.animals{ display: grid;
+          grid-template-columns: 1fr 1fr ;
+}
+
+ol.worried-about-heights{ 
+    margin-left: 20px 
+}
+
+ol.app{
+    margin-left: 20px
+}
